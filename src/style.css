@@ -45,20 +45,27 @@ hr {
 button {
     font-size: 20px;
     padding: 3px;
+    border: none;
     border-radius: 8px;
     min-width: 70px;
     box-shadow: 5px 3px 6px 3px rgb(48, 104, 66);
     margin: 5px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
 }
 
-.start {
+button:hover {
+    transform: translateY(-10px);
+}
+
+#start {
     background-color: rgb(58, 193, 24);
 }
 
-.pause {
+#pause {
     background-color: rgb(87, 212, 217);
 }
 
-.reset {
+#reset {
     background-color: cornflowerblue;
 }
